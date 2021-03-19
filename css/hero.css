@@ -1,0 +1,23 @@
+.hero {
+    background-image: url(../img/background_hero.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 100vh;
+    padding-top: 93px;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: auto;
+        padding-bottom: 130px;
+    }
+}
+
+@media (max-width: 380px) {
+    .hero {
+        height: auto;
+        padding-bottom: 50px;
+        padding-top: 36px;
+    }
+}

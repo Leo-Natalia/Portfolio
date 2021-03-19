@@ -125,6 +125,13 @@
     }
 }
 
+@media (max-width: 320px) {
+    .portfolio-images {
+        grid-template-columns: 151px 110px;
+        column-gap: 10px;
+    }
+}
+
 .portfolio-images div {
     display: grid;
     row-gap: 26px;
@@ -139,6 +146,12 @@
 @media (max-width: 380px) {
     .portfolio-images div {
         row-gap: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    .portfolio-images div {
+        row-gap: 10px;
     }
 }
 

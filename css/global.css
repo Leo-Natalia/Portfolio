@@ -1,0 +1,139 @@
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    font-style: normal;
+    line-height: 1.21;
+    color: #333333;
+}
+
+@media (max-width: 1150px) {
+    html, body {
+        overflow-x: hidden;
+    }
+}
+
+.container {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1150px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 380px) {
+    .container {
+        width: 85%;
+    }
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@media (max-width: 1000px) {
+    .title {
+        text-align: center;
+    }
+}
+
+.text {
+    font-size: 18px;
+    line-height: 1.67;
+    font-weight: 400;
+}
+
+@media (max-width: 1000px) {
+    .text {
+        text-align: justify;
+    }
+}
+
+@media (max-width: 680px) {
+    .text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 380px) {
+    .text {
+        font-size: 12px;
+    }
+}
+
+.subtitle {
+    font-size: 18px;
+    line-height: 1.39;
+    font-weight: 600;
+}
+
+@media (max-width: 1000px) {
+    .subtitle {
+        text-align: center;
+    }
+}
+
+@media (max-width: 680px) {
+    .subtitle {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 380px) {
+    .subtitle {
+        font-size: 14px;
+    }
+}
+
+.to-top-arrow {
+    position: fixed;
+    right: 180px;
+    bottom: 70px;
+}
+
+@media (max-width: 1024px) {
+    .to-top-arrow {
+        right: 170px;
+        bottom: 60px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .to-top-arrow {
+        right: 150px;
+        bottom: 50px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .to-top-arrow {
+        right: 110px;
+        bottom: 50px;
+    }
+}
+
+@media (max-width: 380px) {
+    .to-top-arrow {
+        right: 33px;
+        bottom: 58px;
+    }
+}
+
+.to-top-arrow img {
+    transform: rotate(90deg);
+}

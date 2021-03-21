@@ -5,7 +5,7 @@ body {
     color: #333333;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1150px) {
     html, body {
         overflow-x: hidden;
     }
@@ -17,13 +17,19 @@ body {
     margin-right: auto;
 }
 
+@media (max-width: 1150px) {
+    .container {
+        width: 80%;
+    }
+}
+
 @media (max-width: 1024px) {
     .container {
         width: 80%;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .container {
         width: 80%;
     }
@@ -40,7 +46,7 @@ body {
     font-weight: 700;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 1000px) {
     .title {
         text-align: center;
     }
@@ -52,10 +58,21 @@ body {
     font-weight: 400;
 }
 
+@media (max-width: 1000px) {
+    .text {
+        text-align: justify;
+    }
+}
+
+@media (max-width: 680px) {
+    .text {
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 380px) {
     .text {
         font-size: 12px;
-        text-align: justify;
     }
 }
 
@@ -65,10 +82,21 @@ body {
     font-weight: 600;
 }
 
+@media (max-width: 1000px) {
+    .subtitle {
+        text-align: center;
+    }
+}
+
+@media (max-width: 680px) {
+    .subtitle {
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 380px) {
     .subtitle {
         font-size: 14px;
-        text-align: center;
     }
 }
 
@@ -80,12 +108,19 @@ body {
 
 @media (max-width: 1024px) {
     .to-top-arrow {
+        right: 170px;
+        bottom: 60px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .to-top-arrow {
         right: 150px;
         bottom: 50px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .to-top-arrow {
         right: 110px;
         bottom: 50px;

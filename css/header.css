@@ -5,8 +5,18 @@ header {
     margin-bottom: 145px;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 680px) {
     header {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 400px) {
+    header {
+        flex-direction: row;
         justify-content: left;
         margin-bottom: 50px;
     }
@@ -16,7 +26,7 @@ header {
     display: none;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 400px) {
     .burger-bar {
         display: grid;
         row-gap: 5px;
@@ -37,7 +47,19 @@ header {
     font-weight: 700;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 680px) {
+    .logo {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .logo {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 400px) {
     header nav {
         display: none;
     }
@@ -52,15 +74,21 @@ header {
     margin-right: 60px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1150px) {
     .navigation-header li {
         margin-right: 50px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .navigation-header li {
         margin-right: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navigation-header li {
+        margin-right: 30px;
     }
 }
 
@@ -73,9 +101,15 @@ header {
     font-weight: 400;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     .navigation-header a {
         font-size: 17px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navigation-header a {
+        font-size: 16px;
     }
 }
 
